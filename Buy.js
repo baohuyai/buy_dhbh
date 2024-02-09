@@ -5,7 +5,8 @@ const { join, resolve } = require("path");
 const { execSync } = require('child_process');
 const semver = require('semver');
 const login = require('facebook-chat-api')
-const keep_alive = require('./keep_alive.js')
+
+require(__dirname + '/keep_alive');
 
 const client = new Object({
 	commands: new Map(),
