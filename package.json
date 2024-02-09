@@ -1,0 +1,33 @@
+{
+  "name": "bot-buy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Buy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.6.7",
+    "bitly": "^7.1.2",
+    "canvas": "^2.11.2",
+    "facebook-chat-api": "github:Schmavery/facebook-chat-api",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.2.0",
+    "parse-ms": "^4.0.0",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.3",
+    "request": "^2.88.2",
+    "safe-browse-url-lookup": "^0.1.1",
+    "sagiri": "^3.4.0",
+    "sequelize": "^6.36.0",
+    "simple-youtube-api": "^5.2.1",
+    "soundcloud-downloader": "^1.0.0",
+    "string-similarity": "^4.0.4",
+    "vm2": "^3.9.19",
+    "ytdl-core": "^4.11.5"
+  }
+}
