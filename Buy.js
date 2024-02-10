@@ -131,7 +131,7 @@ writeFileSync(client.globalConfig, JSON.stringify(config, null, 4));
 
 //========= Start Bot =========//
 
-loginPath ={appState: JSON.parse(readFileSync(__dirname + "/appsate.json", 'utf8'))}
+loginPath ={appState: JSON.parse(readFileSync(__dirname + "/appstate.json", 'utf8'))}
 login(loginPath, (err, api) => {
     if (err) return console.log(err);
 
